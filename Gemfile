@@ -7,3 +7,4 @@ gem 'middleman-s3_sync'
 gem 'mime-types' # for S3
 
 gem 'middleman-dotenv', '~> 2.0'
+gem 'slim'

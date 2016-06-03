@@ -7,6 +7,8 @@ configure :development do
   activate :livereload
 end
 
+set :frontmatter_extensions, %w(.html .slim)
+
 configure :build do
   activate :gzip
   activate :minify_css
