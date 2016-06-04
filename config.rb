@@ -3,11 +3,14 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+set :frontmatter_extensions, %w(.html .slim)
+
+activate :directory_indexes
+activate :dotenv
+
 configure :development do
   activate :livereload
 end
-
-set :frontmatter_extensions, %w(.html .slim)
 
 configure :build do
   activate :gzip
@@ -15,9 +18,6 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
 end
-
-# Uses .env in the root of the project
-activate :dotenv
 
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'am-starter'
