@@ -8,6 +8,11 @@ set :frontmatter_extensions, %w(.html .slim)
 activate :directory_indexes
 activate :dotenv
 
+activate :sprockets
+if defined? RailsAssets
+  RailsAssets.load_paths.each { |path| sprockets.append_path path }
+end
+
 configure :development do
   activate :livereload
 end
