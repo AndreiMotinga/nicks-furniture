@@ -16,6 +16,5 @@ BUCKET=xxxxxxxxxxxx
 
 3. run
 ```
-middleman build --clean
-middleman s3_sync
+./deploy.sh
 ```
