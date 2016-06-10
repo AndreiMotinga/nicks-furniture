@@ -1,0 +1,33 @@
+.footer
+  .container
+    ul.social
+      li
+        a[href="#"]
+          i
+      li
+        a[href="#"]
+          i.ic1
+      li
+        a[href="#"]
+          i.ic2
+    p.footer-class
+      | © 2016 Innate. All Rights Reserved | Design by
+      a[href="http://w3layouts.com/" target="_blank"]
+        | W3layouts
+
+javascript:
+  $(document).ready(function() {
+    /*
+    var defaults = {
+        containerID: 'toTop', // fading element id
+      containerHoverID: 'toTopHover', // fading element hover id
+      scrollSpeed: 1200,
+      easingType: 'linear'
+    };
+    */
+
+    $().UItoTop({ easingType: 'easeOutQuart' });
+
+  });
+a#toTop[href="#" style="display: block;"]
+  span#toTopHover[style="opacity: 1;"]
