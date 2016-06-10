@@ -8,6 +8,9 @@ set :frontmatter_extensions, %w(.html .slim)
 activate :directory_indexes
 activate :dotenv
 
+set :js_dir, "assets/js"
+set :css_dir, "assets/css"
+
 activate :sprockets
 if defined? RailsAssets
   RailsAssets.load_paths.each { |path| sprockets.append_path path }

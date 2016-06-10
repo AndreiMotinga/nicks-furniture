@@ -7,3 +7,4 @@
 //= require template/modernizr.custom
 //= require template/wow.min
 //= require template/wow-init
+//= require template/owl.carousel
