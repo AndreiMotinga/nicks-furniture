@@ -1,5 +1,5 @@
 ### Static site boilerplate template.
-[demo](http://am-mm-static.s3-website-us-west-2.amazonaws.com/)
+[nicks-furniture.com/](http://www.nicks-furniture.com/)
 
 ### Stack
 Middleman
