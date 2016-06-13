@@ -15,11 +15,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: 'Abel-Regular';
     src:url(../fonts/Abel-Regular.ttf) format('truetype');
 }
+$russian_font: 'Poiret One', cursive;
 
 html,body{
 	background:#fff;
 	font-size: 100%;
-	 font-family: 'Abel-Regular';
+  font-family: $russian_font;
 }
 body a{
 	transition: 0.5s all;
@@ -149,6 +150,7 @@ ul.nav.navbar-nav li a:focus::after {
 }
 .banner h3{
 	margin-left: 4em;
+  font-family: $russian_font;
 }
 
 /*Wrapper*/
@@ -268,7 +270,7 @@ ul.nav.navbar-nav li a:focus::after {
     color: #000;
     font-size: 1.8em;
     padding:  1em 0 0;
-     font-family: 'Nunito-Regular';
+    font-family: $russian_font;
 }
 .facts p {
     color:#8A8A8A;
@@ -375,8 +377,8 @@ figure.effect-jazz h4 {
 	text-transform: none;
 	font-size: 1.2em;
 	opacity: 0;
-	    font-family: 'Nunito-Regular';
-	    margin-top: 3em;
+  font-family: $russian_font;
+  margin-top: 3em;
 }
 figure.effect-jazz p {
 	padding: 0.5em 2em;
@@ -417,9 +419,9 @@ figure.effect-jazz:hover p {
     box-shadow: none;
 }
 .portfolio-modal .modal-content h3 {
-    margin: 0;
-    font-size: 3em;
-	font-family: 'Nunito-Regular';
+  margin: 0;
+  font-size: 3em;
+	font-family: $russian_font;
 	color: #fff;
 	margin-bottom: 0.5em;
 }
@@ -513,7 +515,8 @@ figure.effect-jazz:hover p {
 .event-top h4 {
     color: #000;
     font-size: 1.3em;
-    font-family: 'Nunito-Regular';
+    font-family: $russian_font;
+    font-weight: bold;
 }
 .event-top h4 a{
     color: #000;
@@ -568,11 +571,11 @@ figure.effect-jazz:hover p {
 .services h3{
 	color: #FF0068;
     font-size: 3em;
-    font-family: 'Nunito-Regular';
+    font-family: $russian_font;
 }
 .ser-top h5{
     color: #000;
-    font-family: 'Nunito-Regular';
+    font-family: $russian_font;
     font-size: 1.4em;
 }
 .ser-top p{
@@ -633,7 +636,7 @@ figure.effect-jazz:hover p {
 .clients h3{
 	color: #FF0068;
     font-size: 3em;
-    font-family: 'Nunito-Regular';
+    font-family: $russian_font;
     text-align: center;
 }
 .clients h3 span{
@@ -655,7 +658,7 @@ figure.effect-jazz:hover p {
 	font-size:1.3em;
 	text-align: center;
 	display: block;
-	font-family: 'Nunito-Regular';
+	font-family: $russian_font;
 }
 /*--advantage--*/
 .advantage {
