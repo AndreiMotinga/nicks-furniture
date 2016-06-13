@@ -8,3 +8,4 @@
 //= require template/wow.min
 //= require template/wow-init
 //= require template/owl.carousel
+//= require template/clients
