@@ -4,3 +4,4 @@
 
 middleman build --clean
 middleman s3_sync
+rm -rf build
