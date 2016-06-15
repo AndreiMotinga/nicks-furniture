@@ -20,5 +20,4 @@ BUCKET=xxxxxxxxxxxx
 ```
 
 #### Todo
-  1. update email in contact form
   2. create api at ezworks.online to handle contact forms.
